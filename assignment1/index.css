@@ -1,18 +1,31 @@
 #container{
-    background-color: aqua;
+    background-color:blue;
+    height: 20px;
+    width:200vh;
+    margin:0;
+    padding:0;
 }
-#header{
-    background-color:azure
+header{
+    background-color:blueviolet;
+    height: 80px;
+    font-size:60px;
+    text-align:center;
+    font-family:Georgia;
 }
-#footer{
-    background-color:bisque
+
+body{
+    background-color:aqua;
+    height:min-content;
 }
-#panel1{
-    background-color:blue
+
+footer{
+    background-color:azure;
+    height: 50px;
+    text-align:center
 }
-#panel2{
-    background-color:bisque
-}
-#body{
-    background-color:brown
+nav{
+    display:block;
+    background-color:blanchedalmond;
+    font-size:larger;
+    height: 40px;
 }
